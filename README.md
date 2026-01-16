@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Sistema-de-Consultas-Log-sticas-CabeAi-Trabalho-Pratico-3
-Trabalho Prático 3 da disciplina de Estrutura de Dados
-=======
-# Sistema-de-Consultas-Logísticas-CabeAi-TP3
+# Sistema-de-Consultas-Logisticas-CabeAi-Trabalho-Pratico-3
 
 Trabalho Prático III da disciplina de **Estrutura de Dados** (UFMG)
 
@@ -115,4 +111,3 @@ Este projeto foi desenvolvido por **Marcos Aurelio Santos** como parte da avalia
 **Contato:** [LinkedIn](https://www.linkedin.com/in/marcos9247)
 
 © 2025 Marcos Aurelio Santos. Código disponível para fins acadêmicos.
->>>>>>> 45a2e5e (Envio de projeto)
