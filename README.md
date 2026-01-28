@@ -93,12 +93,16 @@ O arquivo contém a configuração da base de endereços seguida pelas consultas
 Os testes de estresse demonstraram os limites práticos da implementação em relação ao hardware.
 
 * **Padrão de Acesso à Memória:** O gráfico de dispersão mostrou uma alta densidade de acesso nos nós superiores da AVL (raiz), confirmando a eficiência da cache para o início das buscas.
+  
 ![Gráfico de acesso à memória](assets/grafico2.png)
+
 * **Limites de Cache:** Para bases acima de **40.000 endereços**, observou-se uma degradação de performance e oscilação no tempo de execução. Isso ocorre devido à fragmentação de memória causada pelos ponteiros da árvore, gerando *Cache Misses* frequentes ao acessar folhas profundas.
+  
 ![Gráfico Localidade Temporal](assets/grafico3.png)
 
 ### Gráfico de Performance
 #### 📈 Tempo de Execução vs. Tamanho da Base
+
 ![Gráfico de Escalabilidade](assets/grafico1.png)
 *(O crescimento torna-se instável após 40k registros devido à latência da memória principal)*
 
@@ -106,7 +110,7 @@ Os testes de estresse demonstraram os limites práticos da implementação em re
 
 ## Autoria e Licença
 
-Este projeto foi desenvolvido por **Marcos Aurelio Santos** como parte da avaliação da disciplina de Estruturas de Dados da UFMG.
+Este projeto foi desenvolvido como parte da avaliação da disciplina de Estruturas de Dados da UFMG.
 
 **Contato:** [LinkedIn](https://www.linkedin.com/in/marcos9247)
 
